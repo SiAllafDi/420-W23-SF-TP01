@@ -1,9 +1,9 @@
 /* 
  Travail pratique 1
- --> Nom de la première personne
+ --> Sidi Allaf
  Nom de la deuxième personne
  
- Date  JJ-MM-AAAA                                             
+ Date  06-07-2021                                             
 */
 DROP DATABASE IF EXISTS PosteClientDFC;
 CREATE DATABASE IF NOT EXISTS PosteClientDFC;
