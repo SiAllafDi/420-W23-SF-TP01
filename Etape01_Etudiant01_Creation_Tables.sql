@@ -1,6 +1,6 @@
 /* 
  Travail pratique 1
- --> Sidi  Allaf
+ --> Sidi Allaf
  Nom de la deuxième personne
  
  Date  06-07-2021                                             
