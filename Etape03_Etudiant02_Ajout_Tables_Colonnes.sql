@@ -19,7 +19,6 @@ nom_statut varchar(45) null
 alter table usager 
 add column id_typeUsager int unsigned,
 add constraint Fk_id_typeUsager foreign key (id_typeUsager) REFERENCES typeusager(id_typeUsager) ON DELETE no action on update no action;
-select * from typeusager;
 INSERT INTO `posteclientdfc`.`typeusager` (`id_typeUsager`, `nom_statut`) VALUES ('1', 'Professeur');
 INSERT INTO `posteclientdfc`.`typeusager` (`id_typeUsager`, `nom_statut`) VALUES ('2', 'Employé');
 INSERT INTO `posteclientdfc`.`typeusager` (`id_typeUsager`, `nom_statut`) VALUES ('3', 'Étudiant');
