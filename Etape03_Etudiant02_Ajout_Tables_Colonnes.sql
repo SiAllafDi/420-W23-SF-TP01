@@ -22,3 +22,12 @@ add constraint Fk_id_typeUsager foreign key (id_typeUsager) REFERENCES typeusage
 INSERT INTO `posteclientdfc`.`typeusager` (`id_typeUsager`, `nom_statut`) VALUES ('1', 'Professeur');
 INSERT INTO `posteclientdfc`.`typeusager` (`id_typeUsager`, `nom_statut`) VALUES ('2', 'Employé');
 INSERT INTO `posteclientdfc`.`typeusager` (`id_typeUsager`, `nom_statut`) VALUES ('3', 'Étudiant');
+
+alter table logiciel 
+add constraint unique_nom_Logiciel unique  (nom_logiciel),
+modify nom_logiciel  VARCHAR(45) not null;
+
+alter table editeur 
+add constraint unique_nom_editeur unique  (nom_editeur),
+modify nom_editeur  VARCHAR(45) not null;
+
